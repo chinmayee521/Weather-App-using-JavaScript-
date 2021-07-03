@@ -1,0 +1,53 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form id="search-form">
+        
+        <input type="search"
+        placeholder="Enter City"
+        id="search-input"
+        required
+        autocomplete="off" />
+
+    <br><br>
+
+    <button id="search-button">Search</button>
+
+    </form>
+    
+    <main id="container">
+
+        <div id="location">
+            <p>------</p>
+        </div>
+
+        <div id="temp">
+            <img id="temp-icon" src="./iconspng/sunandclouds.png" alt="">
+            <p><span id="temp-value">----</span> <span id="temp-unit">&#176c</span></p>
+        </div>
+
+        <div id="weather">
+            <p>---------</p>
+        </div>
+
+    </main>
+
+
+    <script src="scripts.js"></script>
+</body>
+
+</html>
